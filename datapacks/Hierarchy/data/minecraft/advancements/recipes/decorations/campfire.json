@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:campfire"
+    ]
+  },
+  "criteria": {
+    "has_stick": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stick"
+          }
+        ]
+      }
+    },
+    "has_coal": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:coals"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:campfire"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stick",
+      "has_coal",
+      "has_the_recipe"
+    ]
+  ]
+}

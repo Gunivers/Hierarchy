@@ -1,0 +1,15 @@
+{
+"display" : {
+	"icon": {
+		"item": "minecraft:emerald"
+	},
+	"description": "You won 30 games.",
+	"title": "Invincible!"
+	},
+	"parent": "hierarchy:15",
+    "criteria": {
+        "30": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

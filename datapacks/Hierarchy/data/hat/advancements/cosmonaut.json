@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:diamond_shovel",
+			"nbt":"{Damage:13}"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Cosmonaut","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:devilhorn",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

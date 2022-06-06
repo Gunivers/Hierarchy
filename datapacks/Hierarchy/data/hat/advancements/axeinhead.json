@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:iron_axe"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Axe","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:unicorn",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

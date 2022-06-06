@@ -1,0 +1,15 @@
+{
+"display" : {
+	"icon": {
+		"item": "minecraft:stone_button"
+	},
+	"description": "You joined the map.",
+	"title": "Welcome to Hierarchy!",
+	"background": "minecraft:textures/block/quartz_block_bottom.png"
+	},
+	 "criteria": {
+        "root2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

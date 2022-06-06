@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:jukebox"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Jukebox","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:crown",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

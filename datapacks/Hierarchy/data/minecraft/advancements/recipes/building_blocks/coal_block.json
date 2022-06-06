@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:coal_block"
+    ]
+  },
+  "criteria": {
+    "has_at_least_9_coal": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:coal",
+            "count": {
+              "min": 9
+            }
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:coal_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_at_least_9_coal",
+      "has_the_recipe"
+    ]
+  ]
+}

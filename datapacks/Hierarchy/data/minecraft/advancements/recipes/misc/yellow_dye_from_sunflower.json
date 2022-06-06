@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:yellow_dye_from_sunflower"
+    ]
+  },
+  "criteria": {
+    "has_double_plant": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sunflower"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:yellow_dye_from_sunflower"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_double_plant",
+      "has_the_recipe"
+    ]
+  ]
+}

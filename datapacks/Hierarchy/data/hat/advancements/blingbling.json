@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:gold_block"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Bling Bling","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:stormtrooper",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

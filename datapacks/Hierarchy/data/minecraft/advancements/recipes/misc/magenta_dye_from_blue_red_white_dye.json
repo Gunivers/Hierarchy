@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:magenta_dye_from_blue_red_white_dye"
+    ]
+  },
+  "criteria": {
+    "has_blue_dye": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_dye"
+          }
+        ]
+      }
+    },
+    "has_rose_red": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_dye"
+          }
+        ]
+      }
+    },
+    "has_white_dye": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_dye"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:magenta_dye_from_blue_red_white_dye"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_dye",
+      "has_rose_red",
+      "has_white_dye",
+      "has_the_recipe"
+    ]
+  ]
+}

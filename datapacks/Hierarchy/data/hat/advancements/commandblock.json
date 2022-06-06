@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:command_block"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Command Block Crazy","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:witch",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:armor_stand"
+    ]
+  },
+  "criteria": {
+    "has_stone_slab": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:smooth_stone_slab"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:armor_stand"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stone_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

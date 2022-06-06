@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:smoker"
+    ]
+  },
+  "criteria": {
+    "has_furnace": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:furnace"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:smoker"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_furnace",
+      "has_the_recipe"
+    ]
+  ]
+}

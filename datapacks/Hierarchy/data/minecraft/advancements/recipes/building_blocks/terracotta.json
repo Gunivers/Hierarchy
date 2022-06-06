@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:terracotta"
+    ]
+  },
+  "criteria": {
+    "has_clay_block": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:clay"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:terracotta"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_clay_block",
+      "has_the_recipe"
+    ]
+  ]
+}

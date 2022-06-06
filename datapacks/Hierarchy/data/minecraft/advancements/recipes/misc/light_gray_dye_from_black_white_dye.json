@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:light_gray_dye_from_black_white_dye"
+    ]
+  },
+  "criteria": {
+    "has_white_dye": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_dye"
+          }
+        ]
+      }
+    },
+    "has_black_dye": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_dye"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:light_gray_dye_from_black_white_dye"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_white_dye",
+      "has_black_dye",
+      "has_the_recipe"
+    ]
+  ]
+}

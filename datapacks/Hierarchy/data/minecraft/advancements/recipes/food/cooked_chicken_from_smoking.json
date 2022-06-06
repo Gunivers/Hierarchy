@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:cooked_chicken_from_smoking"
+    ]
+  },
+  "criteria": {
+    "has_chicken": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chicken"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:cooked_chicken_from_smoking"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chicken",
+      "has_the_recipe"
+    ]
+  ]
+}

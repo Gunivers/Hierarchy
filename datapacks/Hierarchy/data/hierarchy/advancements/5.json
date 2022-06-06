@@ -1,0 +1,15 @@
+{
+"display" : {
+	"icon": {
+		"item": "minecraft:brick"
+	},
+	"description": "You won 5 games.",
+	"title": "Ez win"
+	},
+	"parent": "hierarchy:victory",
+    "criteria": {
+        "5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

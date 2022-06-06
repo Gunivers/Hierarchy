@@ -1,0 +1,15 @@
+{
+"display" : {
+	"icon": {
+		"item": "minecraft:stone_button"
+	},
+	"description": "One stack of wins.",
+	"title": "God level"
+	},
+	"parent": "hierarchy:30",
+    "criteria": {
+        "64": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

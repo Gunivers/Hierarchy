@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:chiseled_quartz_block"
+    ]
+  },
+  "criteria": {
+    "has_chiseled_quartz_block": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chiseled_quartz_block"
+          }
+        ]
+      }
+    },
+    "has_quartz_block": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:quartz_block"
+          }
+        ]
+      }
+    },
+    "has_quartz_pillar": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:quartz_pillar"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:chiseled_quartz_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chiseled_quartz_block",
+      "has_quartz_block",
+      "has_quartz_pillar",
+      "has_the_recipe"
+    ]
+  ]
+}

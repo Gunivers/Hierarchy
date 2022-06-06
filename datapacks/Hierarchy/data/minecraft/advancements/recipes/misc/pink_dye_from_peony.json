@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:pink_dye_from_peony"
+    ]
+  },
+  "criteria": {
+    "has_double_plant": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:peony"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:pink_dye_from_peony"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_double_plant",
+      "has_the_recipe"
+    ]
+  ]
+}

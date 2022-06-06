@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:black_dye"
+    ]
+  },
+  "criteria": {
+    "has_ink_sac": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ink_sac"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:black_dye"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ink_sac",
+      "has_the_recipe"
+    ]
+  ]
+}

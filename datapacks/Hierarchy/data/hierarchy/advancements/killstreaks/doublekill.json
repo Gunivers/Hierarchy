@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {"item":"minecraft:stone_sword"},
+		
+		"title": "Double Kill",
+		"description":"You are on the first step to become a pk",
+		
+		"frame":"goal"
+	},
+	
+	"parent":"hierarchy:root",
+	"criteria": {
+        	"doublekill": {
+            	"trigger": "minecraft:impossible"
+        	}
+	}
+}

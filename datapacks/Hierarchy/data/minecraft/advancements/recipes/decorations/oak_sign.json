@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:oak_sign"
+    ]
+  },
+  "criteria": {
+    "has_oak_planks": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:oak_sign"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

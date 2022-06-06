@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:bone"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Dog","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:santaclaus",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

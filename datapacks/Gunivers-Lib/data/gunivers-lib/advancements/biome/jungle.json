@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "jungle": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:jungle"
+			}
+			}
+        },
+		"rewards": {
+			"function": "gunivers-lib:entity/location/biome/jungle" 
+		
+		
+    }
+}

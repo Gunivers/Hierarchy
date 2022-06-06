@@ -1,0 +1,30 @@
+#Only Players
+scoreboard players add @a IsDead 0
+scoreboard players add @a Spell1 0
+scoreboard players add @a Spell2 0
+scoreboard players add @a Spell3 0
+scoreboard players add @a UseEgg 0
+scoreboard players add @a Drop 0
+scoreboard players add @a InGame 0
+scoreboard players add @a Tuto 0
+scoreboard players add @a UseIronAxe 0
+scoreboard players add @a HaveBow 0
+scoreboard players add @a UseBow 0
+scoreboard players add @a Back 0
+scoreboard players add @a Jungle 0
+scoreboard players add @a Hat 0
+scoreboard players add @a Kills 0
+scoreboard players add @a IsDeadNumber 0
+scoreboard players add @a GameNumber 0
+scoreboard players add @a WinNumber 0
+scoreboard players add @a LoseNumber 0
+scoreboard players add @a Mana 0
+scoreboard players add @a DeathNumber 0
+scoreboard players add @a KillNumber 0
+scoreboard players add @a KillStreak 0
+scoreboard players add @a MaxKillStreak 0
+scoreboard players add @a CoinsNumber 0
+scoreboard players add @a UpgradedWeapon 0
+scoreboard players add @a HaveObjective 0
+scoreboard players add @a HaveElytra 0
+tag @a[scores={1=..0}] remove Ready

@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:red_stained_glass"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Disco","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:sortinghat",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

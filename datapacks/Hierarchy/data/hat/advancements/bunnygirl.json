@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:diamond_shovel",
+			"nbt":"{Damage:27}"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Bunny Girl","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:lunalovegood",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

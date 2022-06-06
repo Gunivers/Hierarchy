@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:tnt"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"TNT","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:pikachu",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

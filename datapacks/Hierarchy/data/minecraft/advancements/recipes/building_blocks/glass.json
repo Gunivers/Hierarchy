@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:glass"
+    ]
+  },
+  "criteria": {
+    "has_sand": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:sand"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:glass"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sand",
+      "has_the_recipe"
+    ]
+  ]
+}

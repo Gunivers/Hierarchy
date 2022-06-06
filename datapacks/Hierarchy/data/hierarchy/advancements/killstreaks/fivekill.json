@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {"item":"minecraft:golden_sword"},
+		
+		"title": "Merciless",
+		"description":"Now your enemies became used to report you cheating",
+		
+		"frame":"goal"
+	},
+	
+	"parent":"hierarchy:killstreaks/doublekill",
+	"criteria": {
+        	"fivekill": {
+            	"trigger": "minecraft:impossible"
+        	}
+	}
+}

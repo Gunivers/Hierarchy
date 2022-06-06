@@ -1,0 +1,3 @@
+summon armor_stand 5025 99.6 4988 {NoGravity:1,Invisible:1,Marker:1,CustomName:"{\"text\":\"Dressing\"}",CustomNameVisible:1,Team:"NoScoreDisp",Tags:["ASLobbyColored"]}
+summon armor_stand 5025 99.3 4988 {NoGravity:1,Invisible:1,Marker:1,CustomName:"{\"text\":\"&\"}",CustomNameVisible:1,Team:"NoScoreDisp",Tags:["ASLobbyColored"]}
+summon armor_stand 5025 99 4988 {NoGravity:1,Invisible:1,Marker:1,CustomName:"{\"text\":\"Hall of Creator\"}",CustomNameVisible:1,Team:"NoScoreDisp",Tags:["ASLobbyColored"]}

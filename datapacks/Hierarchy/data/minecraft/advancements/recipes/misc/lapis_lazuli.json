@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:lapis_lazuli"
+    ]
+  },
+  "criteria": {
+    "has_at_least_9_lapis": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lapis_lazuli",
+            "count": {
+              "min": 9
+            }
+          }
+        ]
+      }
+    },
+    "has_lapis_block": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lapis_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:lapis_lazuli"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_at_least_9_lapis",
+      "has_lapis_block",
+      "has_the_recipe"
+    ]
+  ]
+}

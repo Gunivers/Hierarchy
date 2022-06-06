@@ -1,0 +1,15 @@
+{
+"display" : {
+	"icon": {
+		"item": "minecraft:stick"
+	},
+	"description": "You played your first game.",
+	"title": "Your first game!"
+	},
+	"parent": "hierarchy:root",
+	 "criteria": {
+        "root2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

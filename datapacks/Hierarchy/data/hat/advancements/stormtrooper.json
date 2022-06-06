@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:diamond_shovel",
+			"nbt":"{Damage:87}"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Storm Trooper","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:navi",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:lime_dye"
+    ]
+  },
+  "criteria": {
+    "has_green_dye": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_dye"
+          }
+        ]
+      }
+    },
+    "has_white_dye": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_dye"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:lime_dye"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_dye",
+      "has_white_dye",
+      "has_the_recipe"
+    ]
+  ]
+}

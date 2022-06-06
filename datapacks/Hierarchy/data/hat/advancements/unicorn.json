@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:end_rod"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Unicorn","bold":false}],
+		"description": ""
+	},
+	"parent":"hierarchy:root",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

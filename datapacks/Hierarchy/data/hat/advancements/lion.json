@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:diamond_shovel",
+			"nbt":"{Damage:23}"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Lion","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:disco",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

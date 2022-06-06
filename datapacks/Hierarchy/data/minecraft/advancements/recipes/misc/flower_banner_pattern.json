@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:flower_banner_pattern"
+    ]
+  },
+  "criteria": {
+    "has_oxeye_daisy": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oxeye_daisy"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:flower_banner_pattern"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_oxeye_daisy",
+      "has_the_recipe"
+    ]
+  ]
+}

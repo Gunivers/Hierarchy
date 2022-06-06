@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:black_stained_glass_pane_from_glass_pane"
+    ]
+  },
+  "criteria": {
+    "has_glass_pane": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:glass_pane"
+          }
+        ]
+      }
+    },
+    "has_black_dye": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_dye"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:black_stained_glass_pane_from_glass_pane"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glass_pane",
+      "has_black_dye",
+      "has_the_recipe"
+    ]
+  ]
+}

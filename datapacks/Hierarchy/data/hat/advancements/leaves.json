@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:oak_leaves"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Leaves","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:goldenhood",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

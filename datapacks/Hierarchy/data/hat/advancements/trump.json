@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:diamond_shovel",
+			"nbt":"{Damage:30}"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Trump","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:bunnygirl",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

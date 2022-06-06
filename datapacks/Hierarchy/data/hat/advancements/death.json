@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:diamond_shovel",
+			"nbt":"{Damage:114}"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Death","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:jukebox",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

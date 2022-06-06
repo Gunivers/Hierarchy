@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item":"minecraft:diamond_shovel",
+			"nbt":"{Damage:46}"
+		},
+		"title":[{"text":"New Hat: ","bold":true},{"text":"Jack Sparrow","bold":false}],
+		"description": ""
+	},
+	"parent":"hat:peruvian",
+	"criteria": {
+		"getHat":{
+			"trigger":"minecraft:impossible"
+		}
+	}
+}

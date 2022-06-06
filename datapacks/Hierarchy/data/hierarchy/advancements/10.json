@@ -1,0 +1,15 @@
+{
+"display" : {
+	"icon": {
+		"item": "minecraft:iron_ingot"
+	},
+	"description": "You won 10 games.",
+	"title": "Strategist (or not)"
+	},
+	"parent": "hierarchy:5",
+    "criteria": {
+        "10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

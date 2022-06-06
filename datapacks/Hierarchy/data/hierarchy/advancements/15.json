@@ -1,0 +1,15 @@
+{
+"display" : {
+	"icon": {
+		"item": "minecraft:gold_ingot"
+	},
+	"description": "You won 15 games.",
+	"title": "Unstoppable!"
+	},
+	"parent": "hierarchy:10",
+    "criteria": {
+        "15": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

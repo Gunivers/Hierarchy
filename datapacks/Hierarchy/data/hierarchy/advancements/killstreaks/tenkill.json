@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {"item":"minecraft:diamond_sword"},
+		
+		"title": "PK: Pro Killer",
+		"description":"The god of death has taken interest in you...",
+		
+		"frame":"challenge"
+	},
+	
+	"parent":"hierarchy:killstreaks/sevenkill",
+	"criteria": {
+        	"doublekill": {
+            	"trigger": "minecraft:impossible"
+        	}
+	}
+}

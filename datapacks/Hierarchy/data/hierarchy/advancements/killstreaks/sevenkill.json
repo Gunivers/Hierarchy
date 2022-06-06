@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {"item":"minecraft:iron_sword"},
+		
+		"title": "Please someone stop him!",
+		"description":"You're sanding way up mere mortals. But as they say, there is always a stronger one.",
+		
+		"frame":"goal"
+	},
+	
+	"parent":"hierarchy:killstreaks/fivekill",
+	"criteria": {
+        	"sevenkill": {
+            	"trigger": "minecraft:impossible"
+        	}
+	}
+}

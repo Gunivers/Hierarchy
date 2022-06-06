@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:painting"
+    ]
+  },
+  "criteria": {
+    "has_wool": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:wool"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "recipe": "minecraft:painting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wool",
+      "has_the_recipe"
+    ]
+  ]
+}
